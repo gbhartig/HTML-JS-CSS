@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Analyzer</title>
+    <link rel="stylesheet" href="word-Anlyzer.css">
+    <script src="word-Anlyzer.js" defer></script>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Word Analyzer</h1>
+
+        <textarea id="textInput" onchange="analyzeText()"></textarea>
+
+
+        <div class="result">
+            <p><b>Characters:</b> <span id="chars">0</span></p>
+            <p><b>Words:</b> <span id="words">0</span></p>
+            <p><b>Vowels:</b> <span id="vowels">0</span></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
